@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>APM Role Guide – NxtWave</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Associate Product Manager – Sales & Engagement</h1>
+    <div class="mode-toggle">
+      <label for="viewSwitch">View as:</label>
+      <select id="viewSwitch">
+        <option value="candidate">Candidate</option>
+        <option value="recruiter">Recruiter</option>
+      </select>
+    </div>
+  </header>
+
+  <section id="role-overview">
+    <h2>Role Overview</h2>
+    <p><strong>Location:</strong> Hyderabad (Work From Office)</p>
+    <p><strong>Experience:</strong> 1–3 Years | Age ≤ 26</p>
+    <p><strong>CTC:</strong> ₹10–15 LPA (₹7–12L fixed + ₹3L variable)</p>
+    <canvas id="funnelCanvas" width="800" height="300"></canvas>
+  </section>
+
+  <section id="candidate-view" class="view-section">
+    <h2>Why Join NxtWave?</h2>
+    <ul>
+      <li>🚀 High ownership, high visibility, high learning</li>
+      <li>🎯 You’ll run experiments that affect thousands of learners</li>
+      <li>📈 Clear growth from Funnel PM → Strategy Head in 3 years</li>
+    </ul>
+
+    <h3>Career Path</h3>
+    <ol>
+      <li>Year 1: Own KPIs, run RCA, cross-functional work</li>
+      <li>Year 2: Lead Sales/Engagement vertical</li>
+      <li>Year 3+: PM or Growth Lead role</li>
+    </ol>
+
+    <h3>Apply Now</h3>
+    <p>Email your resume to <strong>atharva.tendulkar@nxtwave.co</strong></p>
+  </section>
+
+  <section id="recruiter-view" class="view-section hidden">
+    <h2>Recruiter Dashboard</h2>
+    <p><strong>Daily Sourcing Target:</strong> 156 profiles</p>
+    <p><strong>Funnel:</strong> 1950 profiles → 16 offers</p>
+    <ul>
+      <li>🟠 LinkedIn Sponsored – 20%</li>
+      <li>🔵 InMails – 25%</li>
+      <li>🟢 Naukri DB – 25%</li>
+    </ul>
+
+    <h3>Evaluation Red Flags</h3>
+    <ul>
+      <li>🚩 R1: No metrics, unclear logic</li>
+      <li>🚩 R2: Weak RCA, low structure</li>
+      <li>🚩 R3: Blame-shifting, rigidity</li>
+    </ul>
+
+    <h3>Panel Contacts</h3>
+    <p><strong>Atharva Tendulkar</strong>: 8080204000 | atharva.tendulkar@nxtwave.co</p>
+    <p><strong>Anurag Kulkarni</strong>: 8329452361 | anurag.kulkarni@nxtwave.tech</p>
+  </section>
+
+  <footer>
+    <p>Built for NxtWave APM Hiring | © 2025</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
